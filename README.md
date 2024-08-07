@@ -1,5 +1,5 @@
 # Petflix
-Neste projeto iremos desenvolver uma plataforma de streaming exclusiva para pets, o objetivo é introduzir séries e filmes, jogos interativos para entreter e acalmar seu pet.
+Neste projeto iremos desenvolver uma plataforma de streaming exclusiva para pets, o objetivo é introduzir séries, filmes e videos, para entreter e acalmar seu pet.
 ---------------------------------------------------------------------------------------------------------------
 Contamos com uma interface de facil manejamento para nossos amiguinhos.
 Nossos conteudos são atualizados regularmente com um amplo catálogo para todos os gostos.
