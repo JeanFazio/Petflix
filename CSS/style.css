@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left, .right {
+    padding-right: 140px;
+}
+
+.right {
+    padding-right: 400px;
+}
+
+.left {
+    text-align: center;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right {
+    background-color: #545454;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 125px;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #E6E6E6;
+    background-color: #A6A6A6;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #000; 
+}
+
+label input {
+    margin-left: 40px;
+    color: #000;
+}
+
+button {
+    width: 84%;
+    padding: 10px;
+    background-color: #DC143C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+label input {
+    margin-right: 5px;
+}
+
+p {
+    margin-top: 120px;
+}
+
+p a {
+    color: #DC143C;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.imgPata {
+    width: 50px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.imgPata:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para a tela de seleção de perfil */
+#profile-screen {
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(87,86,86,1) 100%);
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 4px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+}
+
+.profile p {
+    margin-top: 10px;
+    font-weight: bolder;
+    color: #6f6f74;
+}
+
+.petflix_icon{
+    margin-left: 20px;
+    padding-bottom: 50px;
+    width: 98.6%;
+    display: flex;
+    justify-content: start;
+}
+
+#profile-screen h1 {
+    color: #DC143C;
+    font-size: 30px;
+}
+
+#profile-screen h2 {
+    font-size: 40px;
+}
+
+#profile-screen .botao_voltar{
+    margin-top: 40px;
+}
+
+#profile-screen .imgPata{
+    margin-top: 20px;
+    width: 100px;
+    height: 84px;
+}
+
+
+/* Estilos para as telas de perfil */
+#luna-profile, #niki-profile, #rony-profile, #tigrao-profile {
+    flex-direction: column;
+    text-align: center;
+}
+
+.botao_voltar{
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #DC143C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.botao_voltar:hover {
+    background-color: darkred;
+}

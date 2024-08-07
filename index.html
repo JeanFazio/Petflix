@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petflix</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
+    <link rel="shortcut icon" href="Images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container" id="login-screen">
+        <div class="left">
+            <img src="Images/Login petflix.png" alt="Petflix">
+        </div>
+        <div class="right">
+            <form>
+                <h2>Entrar</h2>
+                <input type="text" id="email" placeholder="Email ou número de telefone" required>
+                <input type="password" id="password" placeholder="Senha" required>
+                <button id="enter_button" type="button">ENTRAR</button>
+                <label>
+                    <input type="checkbox"> Lembre-se de mim
+                </label>
+                <p>Pet novo na área? <a href="#">Bote a pata aqui e cadastre-se</a></p>
+                <img class="imgPata" src="Images/pata vermelha.png" alt="">
+            </form>
+        </div>
+    </div>
+
+    <div class="container" id="profile-screen" style="display: none;">
+        <header class="petflix_icon">
+            <h1>PETFLIX</h1>
+        </header>
+        <h2>Quem está assistindo?</h2>
+        <div class="profiles">
+            <div class="profile" onclick="showProfile('luna')">
+                <img src="Images/Luna.jpeg" alt="Luna">
+                <p>Luna</p>
+            </div>
+            <div class="profile" onclick="showProfile('niki')">
+                <img src="Images/Niki.jpeg" alt="Niki">
+                <p>Niki</p>
+            </div>
+            <div class="profile" onclick="showProfile('rony')">
+                <img src="Images/Rony.jpeg" alt="Rony">
+                <p>Rony</p>
+            </div>
+            <div class="profile" onclick="showProfile('tigrao')">
+                <img src="Images/Tigrao.jpeg" alt="Tigrao">
+                <p>Tigrão</p>
+            </div>
+            <div>
+                <img class="imgPata" src="Images/pata vermelha.png" alt="">
+            </div>
+        </div>
+        <button class="botao_voltar" onclick="goBackToLogin()">Voltar</button>
+    </div>
+
+
+
+    <div class="container" id="luna-profile" style="display: none;">
+        <h1>Bem-vinda, Luna!</h1>
+        <p>Aqui está sua página inicial personalizada.</p>
+        <button class="botao_voltar" onclick="goBack()">Voltar</button>
+    </div>
+
+    <div class="container" id="niki-profile" style="display: none;">
+        <h1>Bem-vindo, Niki!</h1>
+        <p>Aqui está sua página inicial personalizada.</p>
+        <button class="botao_voltar" onclick="goBack()">Voltar</button>
+    </div>
+
+    <div class="container" id="rony-profile" style="display: none;">
+        <h1>Bem-vindo, João!</h1>
+        <p>Aqui está sua página inicial personalizada.</p>
+        <button class="botao_voltar" onclick="goBack()">Voltar</button>
+    </div>
+
+    <div class="container" id="tigrao-profile" style="display: none;">
+        <h1>Bem-vindo, Tigrao!</h1>
+        <p>Aqui está sua página inicial personalizada.</p>
+        <button class="botao_voltar" onclick="goBack()">Voltar</button>
+    </div>
+</body>
+
+</html>
