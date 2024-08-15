@@ -12,7 +12,8 @@ body {
     justify-content: center;
 }
 
-.left, .right {
+.left,
+.right {
     padding-right: 140px;
 }
 
@@ -42,7 +43,8 @@ form h2 {
     font-size: 2em;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"],
+input[type="password"] {
     width: 80%;
     padding: 10px;
     margin: 10px;
@@ -56,7 +58,7 @@ label {
     display: flex;
     align-items: center;
     margin-top: 10px;
-    color: #000; 
+    color: #000;
 }
 
 label input {
@@ -118,8 +120,8 @@ p a:hover {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(87,86,86,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(87, 86, 86, 1) 100%);
 }
 
 .profiles {
@@ -151,7 +153,7 @@ p a:hover {
     color: #6f6f74;
 }
 
-.petflix_icon{
+.petflix_icon {
     margin-left: 20px;
     padding-bottom: 50px;
     width: 98.6%;
@@ -168,24 +170,69 @@ p a:hover {
     font-size: 40px;
 }
 
-#profile-screen .botao_voltar{
+#profile-screen .botao_voltar {
     margin-top: 40px;
 }
 
-#profile-screen .imgPata{
+#profile-screen .imgPata {
     margin-top: 20px;
     width: 100px;
     height: 84px;
 }
 
-
-/* Estilos para as telas de perfil */
-#luna-profile, #niki-profile, #rony-profile, #tigrao-profile {
-    flex-direction: column;
-    text-align: center;
+.petflix_icon h1 {
+    color: #DC143C;
+    font-size: 30px;
 }
 
-.botao_voltar{
+#luna-profile,
+#niki-profile,
+#rony-profile,
+#tigrao-profile {
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(87, 86, 86, 1) 100%);
+}
+
+#luna-profile .petflix_icon{
+    padding-bottom: 20px;
+}
+
+
+.img_video {
+    height: 250px;
+    width: 180px;
+    margin: 4px;
+    border-radius: 4px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: #DC143C;
+}
+
+.main_profile img{
+    transition: transform 0.3s ease;
+}
+
+.main_profile img:hover{
+    transform: scale(1.2);
+}
+
+
+.main_profile {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_voltar {
     width: auto;
     padding: 10px 20px;
     margin-top: 20px;
